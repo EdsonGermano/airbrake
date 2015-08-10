@@ -6,10 +6,10 @@ module Airbrake
         :development_lookup, :environment_name, :host,
         :http_open_timeout, :http_read_timeout, :ignore, :ignore_by_filters,
         :ignore_user_agent, :notifier_name, :notifier_url, :notifier_version,
-        :params_filters, :params_whitelist_filters, :project_root, :port, :protocol, :proxy_host,
-        :proxy_pass, :proxy_port, :proxy_user, :secure, :use_system_ssl_cert_chain,
-        :framework, :user_information, :rescue_rake_exceptions, :rake_environment_filters,
-        :test_mode].freeze
+        :params_filters, :params_whitelist_filters, :project_id, :project_root, :port,
+        :protocol, :proxy_host, :proxy_pass, :proxy_port, :proxy_user, :secure,
+        :use_system_ssl_cert_chain, :framework, :user_information, :rescue_rake_exceptions,
+        :rake_environment_filters, :test_mode].freeze
 
     # The API key for your project, found on the project edit form.
     attr_accessor :api_key
